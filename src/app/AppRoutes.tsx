@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { NotFound } from "../pages";
 import { Layout } from "./layout";
 
 export function AppRoutes() {
@@ -6,6 +7,7 @@ export function AppRoutes() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layout />}>
+				<Route path="/not-found" element={<NotFound />} />
                     
 				</Route>
 			</Routes>

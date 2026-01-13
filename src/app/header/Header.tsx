@@ -3,12 +3,9 @@ import { ICONS } from "../../shared";
 import { Link, NavLink, useParams } from "react-router-dom";
 
 export function Header() {
-	const {id} = useParams<{id: string}>()
-    const userId = Number(id)
-
 	return (
-		<header className={styles.header}>
-			<div className={styles.headerWrapper}>
+	<header className={styles.header}>
+		<div className={styles.headerWrapper}>
     	    <nav className={styles.navigation}>
     	      <Link to="/catalog" className={styles.link}>
     	        КАТАЛОГ
@@ -34,6 +31,6 @@ export function Header() {
     	    </div>
 
     	  </div>
-		</header>
+	</header>
 	);
 }

@@ -1,0 +1,113 @@
+.footer {
+    gap: 140px;
+    padding-top: 33px;
+    position: relative;
+    width: 100vw;
+    height: 851px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    background-color: #CDD5DD;
+}
+
+.FooterEllipse {
+    position: absolute;
+    width: 1773px;
+    height: 835px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 555px;
+    z-index: 0; 
+    pointer-events: none;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+.stats_div{
+    top: 87px;
+    z-index: 10;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    gap: 180px;
+
+}
+.stat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    width: fit-content;
+    height: fit-content;
+}
+.stat_bold{
+    color: #0C122A;
+    text-align: center;
+    font-family: "GT Walsheim Pro";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.32px;
+    text-transform: uppercase;
+}
+.stat-thin{
+    color: #0C122A;
+    text-align: center;
+    font-family: "GT Walsheim Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.DronesBigLogo{
+    top: 291px;
+    display: flex;
+    height: 161px;
+    width: 100%;
+    flex-shrink: 0;
+}
+.DronesBigLogo path{
+    display: flex;
+    height: 161px;
+    width: 100%;
+}
+.linkbar{
+    display: inline-flex;
+    align-items: center;
+    gap: 27px;
+}
+.linkbar a{
+    color: #0C122A;
+    font-family: "GT Walsheim Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.line{
+    padding-bottom: 60px;
+    width: 1337px;
+    border-top: 1px solid #F4F4F4 ;
+    z-index: 12;
+    padding-top: 24px;
+}
+
+.line p{
+    align-self: stretch;
+    color: #9EA0AA;
+    text-align: center;
+    font-family: "GT Walsheim Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

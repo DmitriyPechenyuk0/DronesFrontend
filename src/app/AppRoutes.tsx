@@ -8,8 +8,8 @@ export function AppRoutes() {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Layout />}>
-                	<Route path="user-me/:id" element={<UserMePage />} />
-					<Route path="about-us" element={<AboutUsPage />} />
+                	<Route path="user/me/:id" element={<UserMePage />} />
+					<Route path="about" element={<AboutUsPage />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>

@@ -1,0 +1,202 @@
+.container {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+    color: #333;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.sectionTitle {
+    font-size: 32px;
+    text-align: center;
+    font-weight: 800;
+    color: #CDD5DD;
+    margin: 60px 0 30px;
+    letter-spacing: 2px;
+}
+
+.hero {
+    top: 0px;
+    position: absolute;
+    position: relative;
+    width: 100vw; 
+    height: 851px; 
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #CDD5DD; 
+}
+
+.heroEllipse {
+    position: absolute;
+    width: 1772px; 
+    height: 835px; 
+    left: 50%;
+    transform: translateX(-50%);
+    top: 555px; 
+    z-index: 1; 
+    pointer-events: none;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.mainTitle {
+    position: relative;
+    z-index: 2;
+    margin-top: 100px; 
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    color: #FFFFFF; 
+    text-transform: uppercase;
+    line-height: 0.9;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+
+.heroImage {
+    width: 800px;
+    height: auto;
+    filter: drop-shadow(0 30px 60px rgba(0,0,0,0.15));
+}
+
+.heroBadge {
+    position: absolute;
+    top: 500px;
+    right: 10%;
+    bottom: 20%;
+    width: 400px;
+    color: #333; 
+}
+
+.darkButton {
+    background: #0C122A;
+    color: #FFFFFF;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease;
+}
+
+.darkButton:hover {
+    background: #1e293b;
+}
+
+.darkButtonWide {
+    display: block;
+    margin: 40px auto;
+    padding: 15px 40px;
+    font-size: 14px;
+}
+
+.outlineButton {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+    background: transparent;
+    border: 2px solid #333;
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.about {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.aboutText {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.newGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.newCard {
+    padding: 20px;
+    border-radius: 15px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 400px;
+    position: relative;
+}
+
+.newCard img {
+    width: 80%;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+}
+
+.cardYellow { 
+    background: linear-gradient(to bottom, #F5BE4F00 50%,#F5BE4F 100%); 
+}
+
+.cardGreen { 
+    background: linear-gradient(to bottom, #1A271B00 50%,#1A271B 100%); 
+}
+
+.cardBlue { 
+    background: linear-gradient(to bottom, #4F94A400 50%,#4F94A4 100%); 
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.buyButton {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    padding: 5px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.catalogGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.catalogItem {
+    text-align: center;
+}
+
+.catalogItem img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.catalogItem h4 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}
